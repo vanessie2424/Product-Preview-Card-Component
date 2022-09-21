@@ -154,7 +154,7 @@ button{
     }
     .image{
         background-image: url(../images/image-product-mobile.jpg);
-        display: block;
+        height: 450px;
         background-size: cover;
         max-width: 100%;
     }
@@ -166,7 +166,6 @@ button{
     }
 
     #perfume{
-        font-size: 13vw;
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
         color: hsl(228, 12%, 48%);
@@ -183,7 +182,7 @@ button{
         font-weight: 700;
         color: hsl(212, 21%, 14%);
         line-height: 2rem;
-        font-size: 13vw;
+        
     }
         
 
