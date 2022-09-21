@@ -183,6 +183,25 @@ button{
         line-height: 2rem;
         
     }
+
+    button{
+        font-family: 'Fraunces', serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        width: 200px;
+        background-color: hsl(158, 36%, 37%);
+        color: hsl(0, 0%, 100%);
+        border-radius: 4px;
+        height: 35px;
+        text-align: center;
+        font-weight: 500;
+        cursor: pointer;
+        
+    
+    }
+    
         
 
 
