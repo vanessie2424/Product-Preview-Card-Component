@@ -149,14 +149,16 @@ button{
         display: flex;
         flex-direction: column;
         height: 450px;
-        width: 300px;
+        width: 600px;
 
     }
     .image{
-        background-image: url(/images/image-product-mobile.jpg);
+        background-image: url(../images/image-product-mobile.jpg);
         height: 450px;
         background-size: cover;
-        max-width: 100%;
+        width: 300px;
+        border: 10px 10px 0 0;
+
     }
 
     .content{
