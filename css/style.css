@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fraunces', serif;
+    
+}
+
+main{
+    min-height: 100vh;
+    background: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* card design */
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 500px;
+    border-radius: 10px;
+    
+}
+
+#product{
+   height: 305px;
+   width: 280px;
+   object-fit: cover;
+   border-radius: 2px;
+}
+.content{
+    display: flex;
+}
+
+.image{
+    background-image: url(../images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+    flex: 1;
+    
+}
+.information{
+    flex: 1;
+    padding: 8px;
+    margin: 10px 12px;
+    
+}
+
+#perfume{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 6px;
+
+}
+.price{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+
+.second{
+    position: relative;
+    left: 55px;
+    font-family: 'Fraunces', serif;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-weight: 700;
+}
+.first{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+
+}
+
+
+#gab{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    line-height: 2rem;
+    
+}
+
+#para{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    margin-top: 1rem;
+}
+
+
+button{
+    font-family: 'Fraunces', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 200px;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 4px;
+    height: 35px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        width: 300px;
+
+    }
+    .image{
+        background-image: url(../images/image-product-mobile.jpg);
+        display: block;
+        background-size: cover;
+        max-width: 100%;
+    }
+
+    .content{
+        max-width: 235px;
+        margin: 30px;
+        text-align: center;
+    }
+
+    #perfume{
+        font-size: 13vw;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+    }
+
+    .price{
+        display: flex;
+        align-items: center;
+        margin-top: 3px;
+    }
+
+    #gab{
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        color: hsl(212, 21%, 14%);
+        line-height: 2rem;
+    }
+        
+
+
+
+
+}
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
